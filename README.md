@@ -1,8 +1,7 @@
 # JavaConverter
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/java_converter`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+This gem converts java file to hex string by specific libraries(which under ./lib/lib directory).
+You can replace library files to fit your own situation.
 
 ## Installation
 
@@ -22,7 +21,7 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+    JavaConverter.convert_file_to_hex(your/java/file/path.java)
 
 ## Development
 
